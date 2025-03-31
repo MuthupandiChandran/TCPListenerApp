@@ -39,9 +39,10 @@
             btnStart.BackColor = Color.Gray;
             btnStart.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             btnStart.ForeColor = Color.White;
-            btnStart.Location = new Point(334, 118);
+            btnStart.Location = new Point(234, 71);
+            btnStart.Margin = new Padding(2, 2, 2, 2);
             btnStart.Name = "btnStart";
-            btnStart.Size = new Size(147, 53);
+            btnStart.Size = new Size(103, 32);
             btnStart.TabIndex = 0;
             btnStart.Text = "Start";
             btnStart.UseVisualStyleBackColor = false;
@@ -50,37 +51,44 @@
             // txtPort
             // 
             txtPort.BorderStyle = BorderStyle.FixedSingle;
-            txtPort.Location = new Point(116, 58);
+            txtPort.Location = new Point(81, 35);
+            txtPort.Margin = new Padding(2, 2, 2, 2);
             txtPort.Name = "txtPort";
-            txtPort.Size = new Size(283, 31);
+            txtPort.Size = new Size(199, 23);
             txtPort.TabIndex = 1;
+            txtPort.Text = "Port";
             // 
             // txtAddress
             // 
             txtAddress.BorderStyle = BorderStyle.FixedSingle;
-            txtAddress.Location = new Point(416, 58);
+            txtAddress.Location = new Point(291, 35);
+            txtAddress.Margin = new Padding(2, 2, 2, 2);
             txtAddress.Name = "txtAddress";
-            txtAddress.Size = new Size(274, 31);
+            txtAddress.Size = new Size(192, 23);
             txtAddress.TabIndex = 2;
+            txtAddress.Text = "IP Address";
             // 
             // groupBox1
             // 
             groupBox1.BackColor = SystemColors.ButtonHighlight;
-            groupBox1.Location = new Point(116, 203);
+            groupBox1.Location = new Point(81, 122);
+            groupBox1.Margin = new Padding(2, 2, 2, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(574, 237);
+            groupBox1.Padding = new Padding(2, 2, 2, 2);
+            groupBox1.Size = new Size(402, 142);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 452);
+            ClientSize = new Size(560, 271);
             Controls.Add(groupBox1);
             Controls.Add(txtAddress);
             Controls.Add(txtPort);
             Controls.Add(btnStart);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
